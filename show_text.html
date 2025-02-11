@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url(https://wallpaperaccess.com/full/1308869.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            p{
+                color:lightyellow;
+                border: 1px solid lightgrey;
+            }
+            button{
+                background-color:green;
+                color:white;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>SOCIAL MEDIA</h1>
+        <br>
+        <p id="mediatext"></p>
+        <button onclick="showText()">Click me.</button>
+
+        <script>
+            function showText(){
+                document.getElementById("mediatext").innerHTML = "Social media is a digital technology where you can view content.";
+            }
+        </script>
+    </body>
+</html>
